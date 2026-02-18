@@ -22,8 +22,8 @@ export function Hero() {
         </p>
       </div>
 
-      <div className="mt-10 mb-10 relative animate-fade-in [animation-delay:200ms]">
-        <div className="relative w-64 h-[450px] md:w-80 md:h-[550px] mx-auto overflow-hidden rounded-[2.5rem] shadow-2xl border-4 border-white">
+      <div className="mt-10 mb-10 relative animate-fade-in [animation-delay:200ms] w-full">
+        <div className="relative w-72 h-[480px] md:w-[450px] md:h-[600px] mx-auto overflow-hidden rounded-[2.5rem] shadow-2xl border-4 border-white transition-all duration-500">
           <Image
             src={heroImage?.imageUrl || "https://i.imgur.com/6RBrV2x.png"}
             alt="Gelatina Anti-Caneta Method"
@@ -33,7 +33,7 @@ export function Hero() {
             data-ai-hint="wellness beauty"
           />
         </div>
-        <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-primary/10 rounded-full blur-3xl"></div>
+        <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-primary/10 rounded-full blur-3xl"></div>
       </div>
 
       <div className="animate-fade-in [animation-delay:400ms] w-full max-w-sm">
