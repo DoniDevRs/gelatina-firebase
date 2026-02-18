@@ -12,7 +12,8 @@ import { Footer } from "@/components/landing/Footer";
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <header className="px-6 flex justify-center sticky top-0 bg-background/80 backdrop-blur-md z-50">
+      <header className="
+      px-6 flex justify-center sticky top-0 bg-background/80 backdrop-blur-md z-50">
         <Logo />
       </header>
       
