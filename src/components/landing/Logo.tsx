@@ -1,12 +1,16 @@
 
-import { Sparkles } from "lucide-react";
+import Image from "next/image";
 
 export function Logo() {
   return (
     <div className="flex items-center gap-2">
-      <div className="bg-primary p-2 rounded-full text-white shadow-md">
-        <Sparkles size={24} />
-      </div>
+      <Image 
+        src="https://i.imgur.com/SXTGMAx.png" 
+        alt="Gelatina Glow Logo" 
+        width={40} 
+        height={40}
+        className="rounded-full"
+      />
       <span className="font-headline text-2xl font-bold text-foreground tracking-tight">
         Gelatina <span className="text-primary">Glow</span>
       </span>
