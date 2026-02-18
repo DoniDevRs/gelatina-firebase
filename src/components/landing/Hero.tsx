@@ -25,7 +25,7 @@ export function Hero() {
       <div className="mt-10 mb-10 relative animate-fade-in [animation-delay:200ms]">
         <div className="relative w-64 h-[450px] md:w-80 md:h-[550px] mx-auto overflow-hidden rounded-[2.5rem] shadow-2xl border-4 border-white">
           <Image
-            src={heroImage?.imageUrl || "https://i.imgur.com/jy3Ti3R.png"}
+            src={heroImage?.imageUrl || "https://i.imgur.com/6RBrV2x.png"}
             alt="Gelatina Anti-Caneta Method"
             fill
             className="object-cover"

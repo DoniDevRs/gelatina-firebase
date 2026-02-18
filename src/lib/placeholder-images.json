@@ -3,7 +3,7 @@
     {
       "id": "hero-image",
       "description": "Premium wellness aesthetic showing the gelatina method",
-      "imageUrl": "https://i.imgur.com/jy3Ti3R.png",
+      "imageUrl": "https://i.imgur.com/6RBrV2x.png",
       "imageHint": "wellness beauty"
     },
     {
@@ -11,6 +11,12 @@
       "description": "Transformation result representation",
       "imageUrl": "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoZWFsdGh5JTIwd29tYW58ZW58MHx8fHwxNzcxNDE5ODU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "healthy woman"
+    },
+    {
+      "id": "logo-image",
+      "description": "Main brand logo image",
+      "imageUrl": "https://i.imgur.com/SXTGMAx.png",
+      "imageHint": "logo brand"
     }
   ]
 }
