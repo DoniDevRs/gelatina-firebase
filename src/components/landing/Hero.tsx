@@ -7,7 +7,7 @@ export function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === "hero-image");
 
   return (
-    <section className="relative pt-12 pb-20 px-6 flex flex-col items-center text-center">
+    <section className="relative pb-20 px-6 flex flex-col items-center text-center">
       <div className="animate-fade-in space-y-4 max-w-2xl mx-auto">
         <p className="font-subheadline text-xs font-semibold uppercase tracking-widest text-primary/80">
           MÉTODO NATURAL DE EMAGRECIMENTO
