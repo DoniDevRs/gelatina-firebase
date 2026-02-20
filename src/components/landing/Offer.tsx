@@ -15,7 +15,7 @@ const inclusions = [
 
 export function Offer() {
   return (
-    <section className="py-20 px-6">
+    <section id="offer" className="py-20 px-6">
       <div className="max-w-2xl mx-auto bg-white rounded-[3rem] border-2 border-primary/20 shadow-2xl p-8 md:p-12 text-center relative overflow-hidden">
         <div className="absolute top-0 right-0 bg-primary text-white px-8 py-2 rounded-bl-[2rem] text-sm font-bold shadow-md">
           OFERTA LIMITADA
@@ -54,7 +54,7 @@ export function Offer() {
           QUERO COMEÇAR AGORA
         </Button>
 
-        <div className="bg-blue-50/50 p-6 rounded-3xl flex flex-col items-center gap-2 border border-blue-100">
+        <div className="bg-blue-50/50 p-6 rounded-3xl flex flex-col items-center gap-2 border border-blue-100 mt-8">
           <div className="text-blue-500 mb-1"><ShieldCheck size={32} /></div>
           <h3 className="font-subheadline font-bold text-blue-900">Garantia Total de 7 Dias</h3>
           <p className="font-body text-sm text-blue-800 leading-relaxed">

@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -47,9 +48,10 @@ export function Hero() {
 
       <div className="animate-fade-in [animation-delay:400ms] w-full max-w-sm">
         <Button
+          asChild
           className="w-full h-14 text-lg font-subheadline font-bold bg-primary hover:bg-accent text-white rounded-full shadow-lg transition-all transform hover:scale-105 active:scale-95"
         >
-          QUERO COMEÇAR MEU PROTOCOLO
+          <a href="#offer">QUERO COMEÇAR MEU PROTOCOLO</a>
         </Button>
       </div>
     </section>

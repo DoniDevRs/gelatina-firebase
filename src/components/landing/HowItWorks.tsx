@@ -1,5 +1,5 @@
 
-import { Check, Sparkles } from "lucide-react";
+import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const features = [
@@ -45,9 +45,10 @@ export function HowItWorks() {
 
       <div className="text-center">
         <Button 
+          asChild
           className="w-full max-w-sm h-14 text-lg font-subheadline font-bold bg-primary hover:bg-accent text-white rounded-full shadow-lg transition-all"
         >
-          QUERO COMEÇAR AGORA
+          <a href="#offer">QUERO COMEÇAR AGORA</a>
         </Button>
       </div>
     </section>
