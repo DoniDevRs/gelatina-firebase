@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Gelatina Anti-Caneta - Método Natural de Emagrecimento",
   description:
     "Reduza até 2kg em 14 dias controlando sua fome de forma natural. Sem injeções. Sem fórmulas caras.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
