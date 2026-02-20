@@ -1,4 +1,3 @@
-
 "use client";
 
 import { Check, ShieldCheck } from "lucide-react";
@@ -6,10 +5,10 @@ import { Button } from "@/components/ui/button";
 import handleCheckout from "@/lib/handleCheckout";
 
 const inclusions = [
-  "Aplicativo exclusivo",
-  "Protocolo de 14 dias",
-  "Estratégia de saciedade",
-  "Guia prático em PDF",
+  "Protocolo estruturado de 14 dias",
+  "Estratégia natural de saciedade",
+  "Checklist diário de acompanhamento",
+  "Guia prático em PDF ilustrado",
   "Acesso imediato"
 ];
 
@@ -25,7 +24,7 @@ export function Offer() {
           Método Gelatina Anti-Caneta
         </h2>
 
-        <div className="space-y-4 mb-10 text-left max-w-xs mx-auto">
+        <div className="space-y-4 mb-6 text-left max-w-xs mx-auto">
           {inclusions.map((item, index) => (
             <div key={index} className="flex items-center gap-3">
               <div className="text-primary"><Check size={20} strokeWidth={3} /></div>
@@ -33,6 +32,10 @@ export function Offer() {
             </div>
           ))}
         </div>
+
+        <p className="font-body text-sm text-muted-foreground mb-10 italic max-w-xs mx-auto">
+          “Material pensado para ser simples, aplicável e realista.”
+        </p>
 
         <div className="mb-8">
           <p className="font-body text-muted-foreground line-through text-lg">De R$97,00</p>
@@ -49,7 +52,7 @@ export function Offer() {
 
         <Button
           onClick={handleCheckout}
-          className="w-full h-16 text-xl font-bold bg-primary hover:bg-primary/90"
+          className="w-full h-16 text-xl font-bold bg-primary hover:bg-primary/90 rounded-full transition-all transform hover:scale-105"
         >
           QUERO COMEÇAR AGORA
         </Button>
