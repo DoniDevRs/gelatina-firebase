@@ -21,11 +21,10 @@ export function HowItWorks() {
         </h2>
         <div className="space-y-4 font-body text-muted-foreground text-lg leading-relaxed max-w-2xl mx-auto">
           <p>
-            As canetas emagrecedoras ficaram famosas por reduzir o apetite. Mas nem toda mulher quer aplicar injeções.
+            As canetas ficaram famosas porque reduzem o apetite.
           </p>
           <p>
-            Agora, uma estratégia simples está chamando atenção: 
-            <span className="text-foreground font-semibold"> usar a gelatina comum do jeito certo</span> para aumentar a saciedade naturalmente.
+            Mas existe uma forma natural de estimular a saciedade usando <span className="text-foreground font-semibold">gelatina comum do jeito certo</span>.
           </p>
         </div>
       </div>
