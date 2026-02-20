@@ -35,6 +35,16 @@ export function SocialProof() {
           <p className="font-subheadline font-bold text-primary">— Juliana S.</p>
         </div>
       </div>
+
+      <div className="mt-12 text-center space-y-1 animate-fade-in [animation-delay:400ms]">
+        <div className="text-lg mb-1">⭐⭐⭐⭐⭐</div>
+        <p className="font-subheadline font-semibold text-foreground/80">
+          Mais de 120 mulheres já começaram o protocolo
+        </p>
+        <p className="font-body text-sm text-muted-foreground">
+          Avaliação média: 4,8/5
+        </p>
+      </div>
     </section>
   );
 }
