@@ -1,6 +1,9 @@
 
+"use client";
+
 import { Check, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import handleCheckout from "@/lib/handleCheckout";
 
 const inclusions = [
   "Aplicativo exclusivo",
@@ -44,8 +47,11 @@ export function Offer() {
           Menos que o valor de uma pizza 🍕 — e pode transformar sua relação com a fome.
         </p>
 
-        <Button className="w-full h-16 text-xl font-bold bg-primary hover:bg-accent text-white rounded-full shadow-lg transition-all transform hover:scale-105 mb-6">
-          GARANTIR MINHA VAGA
+        <Button
+          onClick={handleCheckout}
+          className="w-full h-16 text-xl font-bold bg-primary hover:bg-primary/90"
+        >
+          QUERO COMEÇAR AGORA
         </Button>
 
         <div className="bg-blue-50/50 p-6 rounded-3xl flex flex-col items-center gap-2 border border-blue-100">
