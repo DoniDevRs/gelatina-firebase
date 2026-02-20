@@ -17,7 +17,7 @@ export function Hero() {
         </h1>
         
         <p className="font-body text-muted-foreground text-lg leading-relaxed px-4">
-          O Método Natural que Está Ajudando Mulheres a Reduzir até 2kg Sem Caneta. Sem Injeção. Sem Radicalismo.
+          Descubra como usar gelatina comum do jeito certo para aumentar a saciedade naturalmente.
         </p>
       </div>
 
