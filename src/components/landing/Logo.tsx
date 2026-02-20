@@ -9,7 +9,7 @@ export function Logo() {
     <div className="flex justify-center py-4">
       <Image
         src={logoImage?.imageUrl || "https://i.imgur.com/SXTGMAx.png"}
-        alt="Gelatina Glow Logo"
+        alt="Gelatina Anti-Caneta Logo"
         width={130}
         height={37}
         priority

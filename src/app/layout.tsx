@@ -3,7 +3,7 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Gelatina Glow - Método Natural de Emagrecimento',
+  title: 'Gelatina Anti-Caneta - Método Natural de Emagrecimento',
   description: 'Elimine até 2kg em 14 dias de forma natural com o método Gelatina Anti-Caneta.',
 };
 
