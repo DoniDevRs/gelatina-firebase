@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -14,11 +13,11 @@ export function Hero() {
         </p>
         
         <h1 className="font-headline text-4xl md:text-5xl font-bold leading-tight text-foreground">
-          Elimine até <span className="text-primary">2kg em 14 dias</span> de forma natural
+          Controle sua fome em <span className="text-primary">14 dias</span> sem injeções e sem fórmulas caras.
         </h1>
         
         <p className="font-body text-muted-foreground text-lg leading-relaxed px-4">
-          A alternativa natural que muitas mulheres estão testando antes de recorrer às canetas emagrecedoras.
+          O Método Natural que Está Ajudando Mulheres a Reduzir até 2kg Sem Caneta. Sem Injeção. Sem Radicalismo.
         </p>
       </div>
 
