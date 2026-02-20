@@ -41,7 +41,7 @@ export function Offer() {
         </div>
 
         <p className="font-body text-sm text-muted-foreground mb-6 max-w-xs mx-auto">
-          Menos que o valor de uma pizza — e pode transformar sua relação com a fome.
+          Menos que o valor de uma pizza 🍕 — e pode transformar sua relação com a fome.
         </p>
 
         <Button className="w-full h-16 text-xl font-bold bg-primary hover:bg-accent text-white rounded-full shadow-lg transition-all transform hover:scale-105 mb-6">
