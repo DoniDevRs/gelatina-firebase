@@ -5,6 +5,7 @@ import { HowItWorks } from "@/components/landing/HowItWorks";
 import { Benefits } from "@/components/landing/Benefits";
 import { CareSection } from "@/components/landing/CareSection";
 import { SocialProof } from "@/components/landing/SocialProof";
+import { TargetAudience } from "@/components/landing/TargetAudience";
 import { Offer } from "@/components/landing/Offer";
 import { FAQ } from "@/components/landing/FAQ";
 import { Footer } from "@/components/landing/Footer";
@@ -22,6 +23,7 @@ export default function Home() {
       <Benefits />
       <CareSection />
       <SocialProof />
+      <TargetAudience />
       <Offer />
       <FAQ />
       <Footer />
