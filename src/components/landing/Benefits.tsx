@@ -8,7 +8,7 @@ const benefits = [
     icon: Feather
   },
   {
-    title: "Satiety prolongada",
+    title: "Saciedade prolongada",
     description: "Sinta-se satisfeita por muito mais tempo após as refeições.",
     icon: Clock
   },
