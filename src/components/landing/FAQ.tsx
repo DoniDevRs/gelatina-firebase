@@ -18,6 +18,14 @@ const faqs = [
   {
     q: "Funciona para qualquer pessoa?",
     a: "Sim, o método utiliza as propriedades naturais da gelatina para promover saciedade, o que beneficia qualquer organismo de forma segura."
+  },
+  {
+    q: "Em quanto tempo começo a sentir diferença?",
+    a: "Muitas mulheres relatam melhora na saciedade já nos primeiros dias, principalmente na fome noturna."
+  },
+  {
+    q: "Preciso comprar suplementos caros?",
+    a: "Não. O método pode ser feito com gelatina comum e ingredientes acessíveis."
   }
 ];
 
