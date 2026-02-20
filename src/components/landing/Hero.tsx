@@ -11,16 +11,21 @@ export function Hero() {
         <p className="font-subheadline text-xs font-semibold uppercase tracking-widest text-primary/80">
           MÉTODO NATURAL DE EMAGRECIMENTO
         </p>
-        
-        <h1 className="font-headline text-3xl md:text-5xl lg:text-6xl font-bold leading-[1.15] text-foreground">
-          Reduza até <span className="text-primary whitespace-nowrap">2kg em 14 dias</span><br className="hidden md:block" />
-          Controlando sua fome de forma <span className="text-primary">natural</span>
+
+        <h1 className="font-headline text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-foreground">
+          <span className="block">
+            Reduza até <span className="text-primary">2kg em 14 dias.</span>
+          </span>
+
+          <span className="block">
+            Controlando sua fome de forma <span className="text-primary">natural</span>
+          </span>
         </h1>
 
         <p className="font-subheadline text-lg md:text-2xl font-bold text-foreground/90 max-w-2xl mx-auto px-4">
           Sem injeções. Sem fórmulas caras.
         </p>
-        
+
         <p className="font-body text-muted-foreground text-base md:text-lg leading-relaxed px-4 max-w-2xl mx-auto">
           Descubra como usar gelatina comum do jeito certo para aumentar a saciedade naturalmente.
         </p>
@@ -41,10 +46,10 @@ export function Hero() {
       </div>
 
       <div className="animate-fade-in [animation-delay:400ms] w-full max-w-sm">
-        <Button 
+        <Button
           className="w-full h-14 text-lg font-subheadline font-bold bg-primary hover:bg-accent text-white rounded-full shadow-lg transition-all transform hover:scale-105 active:scale-95"
         >
-          QUERO COMEÇAR AGORA
+          QUERO COMEÇAR MEU PROTOCOLO
         </Button>
       </div>
     </section>
