@@ -11,7 +11,7 @@ export const handleCheckout = () => {
   
     // Redirecionamento
     window.open(
-      "https://www.google.com",
+      "https://pay.cakto.com.br/n5i7wwx_778598",
       "_blank"
     );
   };
