@@ -2,21 +2,16 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 
-const PIXEL_ID = "629238653186182";
+const PIXEL_ID = "937923638677494";
 
 export const metadata: Metadata = {
   title: "Gelatina Anti-Caneta - Método Natural de Emagrecimento",
   description:
     "Reduza até 2kg em 14 dias controlando sua fome de forma natural. Sem injeções. Sem fórmulas caras.",
   icons: {
-    icon: [
-      { url: "/logo.png", url: "/logo.png" },
-      { url: "/logo.png", sizes: "32x32", type: "image/png" },
-    ],
-    shortcut: ["/logo.png"],
-    apple: [
-      { url: "/logo.png", sizes: "180x180", type: "image/png" },
-    ],
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
 };
 
